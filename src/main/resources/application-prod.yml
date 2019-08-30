@@ -1,0 +1,14 @@
+#生产配置
+#开发配置
+spring:
+  datasource:
+    url: jdbc:postgresql://
+    username:
+    password:
+    #使用druid数据源
+    #type: com.alibaba.druid.pool.DruidDataSource
+    #driver-class-name: com.mysql.jdbc.Driver
+
+#日志配置
+#logging:
+ # config: classpath:logback_config/logback-prod.xml

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.lihuan.demo.dao.UserDao">
+    <!--<resultMap id="BaseResultMap" type="com.example.lihuan.demo.entity.User">
+        <result column="Id" jdbcType="INTEGER" property="id"/>
+        <result column="name" jdbcType="CHAR" property="name"/>
+        <result column="address" jdbcType="CHAR" property="address"/>
+    </resultMap>
+    <insert id="insert" parameterType="com.example.lihuan.demo.entity.User">
+        insert into user (id, name, address)
+        values (#{id,jdbcType=INTEGER}, #{name,jdbcType=CHAR}, #{address,jdbcType=CHAR})
+    </insert>
+    <insert id="insertSelective" parameterType="com.example.lihuan.demo.entity.User">
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                Id,
+            </if>
+            <if test="name != null">
+                name,
+            </if>
+            <if test="address != null">
+                address,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="name != null">
+                #{name,jdbcType=CHAR},
+            </if>
+            <if test="address != null">
+                #{address,jdbcType=CHAR},
+            </if>
+        </trim>
+    </insert>-->
+</mapper>
